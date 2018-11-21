@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/search.css">
+    <title>Job searh</title>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-1"><a href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+            </div>
+            <div class="col-auto">
+                <ul class="menu">
+                    <li><a href="#">jobs</a></li>
+                    <li><a href="#">companies</a></li>
+                    <!--<li><a href="#">trainings</a></li>-->
+                    <!--<li><a href="#">blog</a></li>-->
+                    <li><a href="#">companies</a></li>
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">register</a></li>
+                    <li><a class="langLink" href="#">eng</a>
+                        <ul class="lang">
+                            <li><a href="#">ru</a></li>
+                            <li><a href="#">hy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<header>
+
+</header>
+
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="filter">
+                    <form action="" method="">
+                        <div class="search">
+                            <input type="search" name="search" placeholder="Search">
+                        </div>
+                        <div class="category">
+                            <select name="category" id="category">
+                                <option value="all">All category</option>
+                                <option value="marketing">Marketing</option>
+                                <option value="programming">Programming</option>
+                                <option value="design">Design</option>
+                            </select>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Search</button>
+                        </div>
+                    </form>
+                    <form action="" class="mt-5">
+                        <div class="job_category categoryFilter">
+                            <p>Filter by job category</p>
+                            <div><input type="checkbox" name="marketing" id="marketing">
+                                <label for="marketing">Marketing</label></div>
+                            <div>
+                                <input type="checkbox" name="marketing" id="designer">
+                                <label for="designer">Designer</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="marketing" id="teacher">
+                                <label for="teacher">Teacher</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="marketing" id="developer">
+                                <label for="developer">Developer</label>
+                            </div>
+                        </div>
+                        
+                        <div class="job_type">
+                            <p>Filter by job types</p>
+                            <div><input type="checkbox" name="full" id="full">
+                                <label for="full">Full times</label></div>
+                            <div>
+                                <input type="checkbox" name="internship" id="internship">
+                                <label for="internship">Internship</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="training" id="training">
+                                <label for="training">Training</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="fixTermContact" id="fixTermContact">
+                                <label for="fixTermContact">Fixed term contract</label>
+                            </div>
+                            
+                            <input type="checkbox" name="other" id="other">
+                            <label for="other">Other</label>
+                        </div>
+                        <div class="job_terms">
+                            <p>Filter by job terms</p>
+                            <div><input type="checkbox" name="permanent" id="permanent">
+                                <label for="permanent">Permanent</label></div>
+                            <div>
+                                <input type="checkbox" name="freelance" id="freelance">
+                                <label for="freelance">Freelance</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="temporary" id="temporary">
+                                <label for="temporary">Temporary</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="other " id="other ">
+                                <label for="other ">Other </label>
+                            </div>
+                            
+                            <input type="checkbox" name="contract" id="contract">
+                            <label for="contract">Contract</label>
+                        </div>
+                        <div class="job_city">
+                            <p>Filter by job cities</p>
+                            <div><input type="checkbox" name="yerevan" id="yerevan">
+                                <label for="yerevan">Yerevan</label></div>
+                            <div>
+                                <input type="checkbox" name="vanadzor" id="vanadzor">
+                                <label for="vanadzor">Vanadzor</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="ashtarak" id="ashtarak">
+                                <label for="ashtarak">Ashtarak</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="ijevan" id="ijevan">
+                                <label for="ijevan">Ijevan</label>
+                            </div>
+                            
+                            <input type="checkbox" name="sevan" id="sevan">
+                            <label for="sevan">Sevan</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-9">
+                
+                <div class="row">
+                    <div class="col-12 showJob"><div class="">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque deleniti
+                        et expedita illum iusto molestiae, nam nihil optio provident!
+
+                    </div></div>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="js/jquery.js"></script>
+</body>
+</html>
