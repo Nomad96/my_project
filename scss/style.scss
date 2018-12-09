@@ -225,46 +225,6 @@ header {
       }
     }
   }
-  &::after {
-    content: '';
-    position: absolute;
-    display: block;
-    //border-bottom-width: 20px;
-    border-bottom-width: 60px;
-    border-left-width: 30px;
-    border-style: solid;
-    border-color: #fff transparent transparent #fff;
-    z-index: 55;
-    left: 0;
-    top: 100%;
-    -webkit-transition: 0.3s all;
-    -moz-transition: 0.3s all;
-    -ms-transition: 0.3s all;
-    -o-transition: 0.3s all;
-    transition: 0.3s all;
-  }
-  &::before {
-    content: '';
-    position: absolute;
-    display: block;
-    //border-bottom-width: 20px;
-    border-bottom-width: 60px;
-    border-right-width: 30px;
-    border-style: solid;
-    border-color: #fff #fff transparent transparent;
-    z-index: 55;
-    right: 0;
-    top: 100%;
-    -webkit-transition: 0.3s all;
-    -moz-transition: 0.3s all;
-    -ms-transition: 0.3s all;
-    -o-transition: 0.3s all;
-    transition: 0.3s all;
-  }
-  &:hover::after,
-  &:hover::before {
-    opacity: 0;
-  }
 }
 
 main {
@@ -298,35 +258,12 @@ main {
       -webkit-border-radius: 4px 4px 0 0;
       -moz-border-radius: 4px 4px 0 0;
       border-radius: 4px 4px 0 0;
-      -webkit-box-shadow: 0 5px 15px 0 rgba(37, 44, 97, 0.15), 0 2px 4px 0 rgba(93, 100, 148, 0.2);;
-      -moz-box-shadow: 0 5px 15px 0 rgba(37, 44, 97, 0.15), 0 2px 4px 0 rgba(93, 100, 148, 0.2);;
-      box-shadow: 0 5px 15px 0 rgba(37, 44, 97, 0.15), 0 2px 4px 0 rgba(93, 100, 148, 0.2);;
       max-width: 320px;
       width: 100%;
       height: 400px;
       background-color: #fff;
       position: relative;
       padding-top: 90px;
-      -webkit-transition: 0.3s all;
-      -moz-transition: 0.3s all;
-      -ms-transition: 0.3s all;
-      -o-transition: 0.3s all;
-      transition: 0.3s all;
-      -webkit-transform: translateY(5px);
-      -moz-transform: translateY(5px);
-      -ms-transform: translateY(5px);
-      -o-transform: translateY(5px);
-      transform: translateY(5px);
-      &:hover {
-        -webkit-box-shadow: 0 10px 30px 0 rgba(37, 44, 97, 0.15), 0 4px 18px 0 rgba(93, 100, 148, 0.2);
-        -moz-box-shadow: 0 10px 30px 0 rgba(37, 44, 97, 0.15), 0 4px 18px 0 rgba(93, 100, 148, 0.2);
-        box-shadow: 0 10px 30px 0 rgba(37, 44, 97, 0.15), 0 4px 18px 0 rgba(93, 100, 148, 0.2);
-        -webkit-transform: translateY(0px);
-        -moz-transform: translateY(0px);
-        -ms-transform: translateY(0px);
-        -o-transform: translateY(0px);
-        transform: translateY(0px);
-      }
       .company_logo {
         background: url("../img/featured/hsbc.png") no-repeat;
         -webkit-background-size: cover;
